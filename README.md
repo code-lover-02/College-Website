@@ -1,2 +1,3 @@
 # College-Website
-I tired making my college MITS Gwalior's website clone
+Please do check My Project.
+Primarily, I tired making my college MITS Gwalior's website clone
