@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <style>
+        .logo_img {
+            margin-right: 3px;
+            height: 60px;
+        }
+
+        .class1 {
+            text-align: center;
+        }
+
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: #063978 !important;
+            max-height: 65px;
+            font-weight: bold;
+            z-index: 1;
+            /* position: -webkit-sticky; */
+            position: sticky;
+            top: 0;
+        }
+
+        a.nav-link {
+            /* padding: 15% 35% 15% 35%; */
+            padding-left: 30%;
+            padding-right: 30%;
+            color: white !important;
+        }
+
+        a.nav-link:hover {
+            color: white;
+            background-color: rgb(224, 67, 67);
+            /* padding: 20px; */
+        }
+
+
+        .dropdown-menu.show {
+            text-decoration: none;
+            /* background-color: #063978; */
+            color: white !important;
+        }
+
+        .dropdown-item:hover {
+            color: white;
+            font-weight: bold;
+            background-color: red;
+        }
+
+        .btn:not(:disabled):not(.disabled) {
+            cursor: pointer;
+            background-color: rgb(224, 67, 67);
+            font-weight: bold;
+            color: white;
+            border: rgb(224, 67, 67);
+        }
+
+        .btn:not(:disabled):not(.disabled):hover {
+            background-color: rgb(255, 0, 0);
+        }
+
+        #navbarSupportedContent {
+            color: rgb(251, 248, 253);
+        }
+
+
+        .line01 {
+            /* width: ; */
+            display: block;
+            /* height: 1px; */
+            background-color: white;
+        }
+
+        .div01 {
+            margin: 3%;
+            color: white;
+            padding: 10px;
+        }
+
+        .div001 {
+            background-color: #32a69c;
+            font-size: small;
+            border: 2px solid white;
+
+        }
+
+        .div002 {
+            color: black;
+        }
+
+        .div001 h3 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            /* line-height: 2.5; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <img class="logo_img" src="https://web.mitsgwalior.in/images/mits-logo.png">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Admission</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Vision</a>
+                        <a class="dropdown-item" href="#">Mission</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Director Message</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container div1">
+        <div class="row div01">
+            <div class="col-4 div001">
+                <h3>Get Connected</h3>
+                <hr style="width: 60px; text-align: left; margin-top: -5px; background-color: red; height: 1px; ">
+                <hr style="width: 30px; text-align: left; margin-top: -10px; background-color: blue; height: 1px; ">
+                <h5>Madhav Institute of Technology & Science</h5>
+                Gola Ka Mandir, Gwalior - 474005,
+                Madhya Pradesh, India</p>
+                <hr class="line01">
+
+                <p>Email: director@mitsgwalior.in</p>
+                <hr class="line01">
+
+                <p>Tel: 0751-240-9354, 0751-240-9300</p>
+                <hr class="line01">
+
+                <p>For appointment/meeting with director,
+                    please contact PA-Ms. Padmavati Naidu: 9131405124</p>
+                <hr class="line01">
+            </div>
+            <div class="col-8 div002">
+                <h3>Map Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.9316475337423!2d78.2053419!3d26.231410399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3976c14c64938e5f%3A0x87b3d6a725f7b077!2sMadhav%20Institute%20of%20Technology%20%26%20Science!5e0!3m2!1sen!2sin!4v1654168110291!5m2!1sen!2sin"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
